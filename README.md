@@ -83,8 +83,10 @@ Represents course registrations and acts as the transaction table linking studen
 courses.
 
 
-### Entity Relationship Diagram
-![ER Diagram](schema/ER_Diagram.png)
+## Entity Relationship Diagram
+
+
+<img width="1080" height="586" alt="TogethaDrawing" src="https://github.com/user-attachments/assets/7ab7654e-bbde-4623-9240-47ca21e59a1e" />
 
 ### Tables
 1. **students** 
