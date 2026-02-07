@@ -1,4 +1,4 @@
-#  University Course Enrollment & Performance Analysis
+**University Course Enrollment & Performance Analysis**
 
 **Course:** INSY 8311 - Database Development with PL/SQL  
 **Student:** Ornella Marie Sandra Joy Ishimwe | 29598 | Group A  
@@ -6,7 +6,7 @@
 **Submission Date:** February ,07, 2026
 
 
-## 📊 Business Problem
+  **Business Problem**
 Business Context
 The organization is a public university operating in the education sector.
 The analysis is conducted for the Academic Affairs and Institutional Research Department.
@@ -36,7 +36,7 @@ The analysis will achieve the following five measurable objectives:
 4. Segment students into four enrollment-activity quartiles using NTILE(4)
 5. Compute three-semester moving averages of enrollments using AVG() OVER()
 
-## 🗄️ Database Schema
+  **Database Schema**
 1. **Students Table**
 
  
@@ -83,21 +83,21 @@ Represents course registrations and acts as the transaction table linking studen
 courses.
 
 
-## Entity Relationship Diagram
+ **Entity Relationship Diagram**
 
 
 <img width="1080" height="586" alt="TogethaDrawing" src="https://github.com/user-attachments/assets/7ab7654e-bbde-4623-9240-47ca21e59a1e" />
 
-### Tables
+**Tables**
 1. **students** 
 2. **courses** 
 3. **enrollments** 
 
 ---
 
-## 🔗 SQL JOINs Implementation
+ SQL JOINs Implementation
 
-### 1. INNER JOIN - Valid Transactions
+ 1. INNER JOIN - Valid Transactions**
 ```sql
 SELECT
 s.full_name,
@@ -116,7 +116,7 @@ Business Interpretation:
 This query displays all confirmed enrollments where both student and course records exist.
 It helps the university analyze active participation across courses and semesters.
 
-### 2. LEFT JOIN - Inactive Customers
+** 2. LEFT JOIN - Inactive Customers**
 ```sql
 SELECT
 c.course_id,
@@ -254,7 +254,7 @@ GROUP BY student_id;
 Interpretation:
 Students are segmented into quartiles, enabling targeted academic support and engagement
 strategies.
-## 🎯 Recommendations
+ **Recommendations**
 Descriptive Analysis
 Enrollment activity varies significantly by course and semester, with a small number of courses
 attracting the majority of students.
@@ -264,18 +264,18 @@ reduced academic impact.
 Prescriptive Analysis
 The university should promote high-demand courses, revise underperforming courses, and
 Provide targeted academic interventions for low-activity students.
-## 📚 References
+ **References**
 ● PostgreSQL Official Documentation – Window Functions
 ● W3Schools SQL JOINs
 ● Elmasri & Navathe (2016), Fundamentals of Database Systems
 
-## ✅ Academic Integrity Statement
+ **Academic Integrity Statement**
 
 All sources were correctly referenced. The implementations and analyses are original contributions. No AI-generated content was used without proper attribution or modification.
 
 **Signature:** Ishimwe Ornella Marie Sandra Joy  
 **Date:** 07/02/2026---
 
-## 📧 Contact
+ **Contact**
 **Email:** dukundanesandra51@gmail.com 
 **GitHub:** Ishimwe12-ALT
