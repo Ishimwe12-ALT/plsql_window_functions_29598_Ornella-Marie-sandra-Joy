@@ -236,8 +236,11 @@ GROUP BY student_id;
 <img width="386" height="167" alt="4group" src="https://github.com/user-attachments/assets/a4a13236-63b3-485a-a664-14cc5dcd024d" />
 
 Interpretation:
+
 Students are segmented into quartiles, enabling targeted academic support and engagement
 strategies.
+
+
  **Recommendations**
 Descriptive Analysis
 Enrollment activity varies significantly by course and semester, with a small number of courses
@@ -248,7 +251,11 @@ reduced academic impact.
 Prescriptive Analysis
 The university should promote high-demand courses, revise underperforming courses, and
 Provide targeted academic interventions for low-activity students.
+
+
  **References**
+
+ 
 
  
 1. PostgreSQL Official Documentation – Window Functions
