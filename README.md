@@ -242,6 +242,8 @@ strategies.
 
 
  **Recommendations**
+
+ 
 Descriptive Analysis
 Enrollment activity varies significantly by course and semester, with a small number of courses
 attracting the majority of students.
