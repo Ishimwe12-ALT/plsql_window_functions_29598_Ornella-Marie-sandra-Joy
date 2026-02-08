@@ -93,7 +93,7 @@ courses.
 2. **courses** 
 3. **enrollments** 
 
----
+
 
  SQL JOINs Implementation
 
@@ -165,7 +165,7 @@ This comparison helps analyze peer enrollment patterns within the same academic 
 
 5.1 Ranking Functions
 Use Case: Top-enrolled courses per semester.
--- Rank courses by enrollment count per semester
+ Rank courses by enrollment count per semester
 ```sql
 SELECT
 semester,
@@ -186,7 +186,7 @@ most popular courses.
 
 5.2 Aggregate Window Functions
 Use Case: Running total of enrollments.
--- Running total of enrollments by semester
+ Running total of enrollments by semester
 ```sql
 SELECT
 semester,
@@ -206,7 +206,7 @@ planning
 
 5.3 Navigation Functions
 Use Case: Semester-to-semester enrollment growth.
--- Compare enrollment changes between semesters  
+ Compare enrollment changes between semesters  
 ```sql
 SELECT
 semester,
@@ -223,7 +223,7 @@ Positive values indicate enrollment growth, while negative values highlight decl
 
 5.4 Distribution Functions
 Use Case: Student segmentation by enrollment activity.
--- Segment students into quartiles based on enrollment count
+ Segment students into quartiles based on enrollment count
 ```sql
 SELECT
 student_id,
@@ -251,13 +251,13 @@ Provide targeted academic interventions for low-activity students.
  **References**
 
  
-● PostgreSQL Official Documentation – Window Functions
+1. PostgreSQL Official Documentation – Window Functions
 
 
-● W3Schools SQL JOINs
+2. W3Schools SQL JOINs
 
 
-● Elmasri & Navathe (2016), Fundamentals of Database Systems
+3. Elmasri & Navathe (2016), Fundamentals of Database Systems
 
 
  **Academic Integrity Statement**
@@ -265,7 +265,7 @@ Provide targeted academic interventions for low-activity students.
 All sources were correctly referenced. The implementations and analyses are original contributions. No AI-generated content was used without proper attribution or modification.
 
 **Signature:** Ishimwe Ornella Marie Sandra Joy  
-**Date:** 07/02/2026---
+**Date:** 07/02/2026
 
  **Contact**
 **Email:** dukundanesandra51@gmail.com 
