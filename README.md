@@ -3,7 +3,7 @@
 **Course:** INSY 8311 - Database Development with PL/SQL  
 **Student:** Ornella Marie Sandra Joy Ishimwe | 29598 | Group A  
 **Instructor:** Eric Maniraguha  
-**Submission Date:** February ,07, 2026
+**Submission Date:** February,07, 2026
 
 
   **Business Problem**
@@ -116,7 +116,7 @@ Business Interpretation:
 This query displays all confirmed enrollments where both student and course records exist.
 It helps the university analyze active participation across courses and semesters.
 
-** 2. LEFT JOIN - Inactive Customers**
+ 2. LEFT JOIN - Inactive Customers
 ```sql
 SELECT
 c.course_id,
@@ -132,22 +132,6 @@ WHERE e.enrollment_id IS NULL;
 Business Interpretation:
 These students may be inactive or at risk of dropping out and should be targeted for academic
 advising
-
-
-3. RIGHT JOIN
-Purpose: Detect courses with no student enrollments.
-```sql
-  SELECT
-c.course_id,
-c.course_name
-FROM enrollments e
-RIGHT JOIN courses c ON e.course_id = c.course_id
-WHERE e.enrollment_id IS NULL;
-```
-<img width="385" height="122" alt="3 join" src="https://github.com/user-attachments/assets/959bcf04-0abe-4336-a47e-a7eb051b6cef" />
-
-Business Interpretation:
-Courses with no enrollment may need a curriculum review or better promotion.
 
 3. RIGHT JOIN
 Purpose: Detect courses with no student enrollments
@@ -265,9 +249,16 @@ Prescriptive Analysis
 The university should promote high-demand courses, revise underperforming courses, and
 Provide targeted academic interventions for low-activity students.
  **References**
+
+ 
 ● PostgreSQL Official Documentation – Window Functions
+
+
 ● W3Schools SQL JOINs
+
+
 ● Elmasri & Navathe (2016), Fundamentals of Database Systems
+
 
  **Academic Integrity Statement**
 
