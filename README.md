@@ -97,7 +97,7 @@ courses.
 
  SQL JOINs Implementation
 
- 1. INNER JOIN - Valid Transactions**
+ 1. INNER JOIN 
 ```sql
 SELECT
 s.full_name,
@@ -116,7 +116,7 @@ Business Interpretation:
 This query displays all confirmed enrollments where both student and course records exist.
 It helps the university analyze active participation across courses and semesters.
 
- 2. LEFT JOIN - Inactive Customers
+ 2. LEFT JOIN  
 ```sql
 SELECT
 c.course_id,
